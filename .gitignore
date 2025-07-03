@@ -6,7 +6,7 @@ static/
 
 # Ignore model files
 
-
+models/
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
