@@ -5,7 +5,9 @@ pillow
 requests
 transformers
 torch
-opencv-python
+opencv-python-headless
 replicate
 insightface
 gdown
+onnxruntime
+numpy
