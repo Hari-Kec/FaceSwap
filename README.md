@@ -156,7 +156,12 @@ https://drive.google.com/file/d/1ufDAHqFsD01S1WfNzv2LVvBV_f6wpnWW/view?usp=shari
 
 ---
 
+## 🙌 Credits
 
+🤖 InsightFace
+🎬 MaxStudio Video FaceSwap API
+
+---
 ## 📄 License
 
 MIT License
