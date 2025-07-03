@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+requests
+transformers
+torch
+opencv-python
+replicate
+insightface
