@@ -1,6 +1,6 @@
 import requests
 
-def call_faceswap_api(source_img_path, target_img_path, backend_url="http://localhost:8000/faceswap"):
+def call_faceswap_api(source_img_path, target_img_path, backend_url="https://faceswap-l102.onrender.com"):
     with open(source_img_path, "rb") as src, open(target_img_path, "rb") as tgt:
         files = {
             "source_face": src,
