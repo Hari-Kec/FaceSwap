@@ -1,11 +1,13 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+from utils.model_downloader import download_models
 import os
 from face_swapper import swap_faces
-from utils import save_upload_file
+from utilss import save_upload_file
 
 app = FastAPI()
+download_models()
 
 app.add_middleware(
     CORSMiddleware,
